@@ -19,4 +19,4 @@ chef_version '>= 14' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/rz_laptop'
 
-cookbook 'timezone_iii'
+depends 'timezone_iii', '>= 0.0.0'
